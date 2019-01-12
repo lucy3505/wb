@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link href="css/public.css" rel="stylesheet" type="text/css"> 
+		<link rel="stylesheet" href="css/cart.css">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<script src="js/helper.js"></script>
+	</head>
+	<body>
+		<div class="margin">
+			<header>
+				<a href="index.html"><img src="img/logo-icon.png" alt="">
+				<img src="img/slogan-02242018.png" alt="">
+				</a>
+				
+			</header>
+				<a href="list.html">返回列表</a>
+				<div class="container">
+					<div class="col-lg-8">
+						<span>全选</span><input type="checkbox" id="selAll"  checked="checked">
+						<table id="table_data" class="table table-hover">
+							<tr>
+								<td class="active">商品名称</td>
+								<td class="success">商品价格</td>
+								<td class="warning">商品数量</td>
+								<td class="success">商品总价</td>
+
+								<td class="danger">operation</td>
+								
+							</tr>
+						
+						</table>
+						<hr>
+						<div total="text-center">	
+						<h5>总价：<span id="total"></span></h5>	
+						</div>
+						<div class="text-center">
+							<a class="btn btn-primary btn-lg">提交订单</a>
+							
+						</div>
+					</div>
+				</div>
+			
+		</div>
+	 	<script src="js/cart.js"></script> 
+	</body>
+</html>

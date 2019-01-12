@@ -1,0 +1,21 @@
+body{background: #fafafa;}
+.margin{width: 990px;margin: 0 auto;}
+header{height:156px;display: flex;align-items: center;}
+main{background: #fff;height: 800px;border: 1px solid #e8e8e8;display: flex;flex-direction: column;align-items: center;}
+main h4{text-align: center;font:26px/122px ""}
+main ul{width:340px;}
+main ul li{box-sizing: border-box;margin-bottom: 8px;}
+main ul li .f1{border: 1px solid #e8e8e8;display: flex;height:20px;padding: 10px;}
+main ul li i{display: inline-block;height: 18px;width: 15px;background: url(../img/a.png);margin-right: 10px;}
+main ul li.user i{background-position: -345px -151px;}
+main ul li input{outline: none;border: 0;flex:1;}
+ input::-webkit-input-placeholder { color:#e8e8e8; }
+ main ul li.pwd i{background-position:-575px -49px}
+ main ul li.pwd2 i{background-position:-575px -49px}
+ main ul .regBtn{display: flex;padding: 0;margin-top: 20px;}
+ main ul li button{height: 40px;background: #AE0F17;color: #fff;text-align: center;font: 16px/40px "";border: 0;flex: 1;cursor: pointer;}
+ .nerror{color: #AE0F17;}
+ main ul li .nError{margin:5px;font:800 12px/18px "";color: #B34747;display: flex;}
+main ul li .nError i{background: url(../img/a.png);height:15px;width:15px;background-position: -351px -324px;}
+
+    

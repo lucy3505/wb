@@ -1,0 +1,22 @@
+{
+	"banner":["img/lun/1.jpg",
+				"img/lun/2.png",
+				"img/lun/3.jpg",
+				"img/lun/4.jpg",
+				"img/lun/5.png",
+				"img/lun/6.jpg"
+				],
+	"limitR":["img/lun/limitR1.jpg",
+				"img/lun/limitR2.jpg",
+				"img/lun/limitR3.jpg",
+				"img/lun/limitR4.jpg"
+				],
+	"limitC":["img/lun/lc1.png",
+				"img/lun/lc2.png",
+				"img/lun/lc3.png",
+				"img/lun/lc4.png"
+				]
+	
+	
+}
+
